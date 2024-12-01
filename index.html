@@ -24,15 +24,250 @@
   </head>
   <body>
     <header>
-      <nav>
-        <h1>navegables con botones y logo principal</h1>
+      <!-- Inicio navbar navegables con botones y logo principal-->
+      <nav class="navbar navbar-expand-lg bg-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand logo-principal" href="#">
+            <img src="./img/OIP.jpeg" alt="Logo Barberia" />
+          </a>
+          <div class="h1">
+            <h1>BarberShop RC del G6</h1>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/sobre-nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">contacto</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./paginas/iniciar-sesion.htm"
+                  >Iniciar Sesion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/registro.html">Registro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
       <h1>navegable con carrusel - columnas y propagandas</h1>
+      <section class="carousel h-50">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade data-bs-ride=carousel carousel-container"
+        >
+          <div class="carousel-inner cajacontenedorCarousel">
+            <div class="carousel-item active">
+              <img src="./img/OIP (2).jpeg" class="" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/OIP (3).jpeg" class="" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/OIP (4).jpeg" class="" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/OIP (5).jpeg" class="" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/descarga.jpeg" class="" alt="..." />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Inicio de cards -->
+      <h2>Nuestros productos</h2>
+      <section class="conteiner">
+        <article class="row">
+          <!-- Producto 1 -->
+          <div class="col-sm12 col-md6 col-lg-4">
+            <div class="card tamanio-tarjeta">
+              <img src="./img/Prod(1).jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="./paginas/productos/produto1.html"
+                  class="btn btn-success"
+                  >Ver Mas</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="col-sm12 col-md6 col-lg-4">
+            <div class="card tamanio-tarjeta">
+              <img src="./img/Prod (2).jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="./paginas/productos/producto2.html"
+                  class="btn btn-success"
+                  >Ver Mas</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Producto 3 -->
+          <div class="col-sm12 col-md6 col-lg-4">
+            <div class="card tamanio-tarjeta">
+              <img src="./img/Prod (3).jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="./paginas/productos/producto3.html"
+                  class="btn btn-success"
+                  >Ver Mas</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="row">
+          <!-- Producto 4 -->
+          <div class="col-sm12 col-md6 col-lg-4">
+            <div class="card tamanio-tarjeta">
+              <img src="./img/Prod (4).jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success">Ver Mas</a>
+              </div>
+            </div>
+          </div>
+          <!-- Producto 5 -->
+          <div class="col-sm12 col-md6 col-lg-4">
+            <div class="card tamanio-tarjeta">
+              <img src="./img/Prod (5).jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success">Ver Mas</a>
+              </div>
+            </div>
+          </div>
+          <!-- Producto 6 -->
+          <div class="col-sm12 col-md6 col-lg-4">
+            <div class="card tamanio-tarjeta">
+              <img src="./img/Prod (6).jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success">Ver Mas</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
-    <footer>
-      <h1>logo principal mapas direccion - legales etc</h1>
+    <!-- footer logo principal mapas direccion - legales etc -->
+    <footer class="bg-navbar conteiner-fuido mt-5 p-3">
+      <section class="row logo-principal justify-content-between">
+        <a class="col-sm-12 col-md-6 col-lg-3" href="./index.html">
+          <img src="./img/OIP.jpeg" alt="Logo Cafe" />
+        </a>
+
+        <ul class="navbar-nav col-sm-12 col-md-6 col-lg-3">
+          <li><a class="nav-link" href="">Facebook</a></li>
+          <li><a class="nav-link" href="">Instagram</a></li>
+          <li><a class="nav-link" href="">YouTube</a></li>
+        </ul>
+
+        <ul class="navbar-nav col-sm-12 col-md-6 col-lg-3">
+          <li><a class="nav-link" href="">Legales</a></li>
+          <li><a class="nav-link" href="">Trminos y Condiciones</a></li>
+          <li><a class="nav-link" href="">Trabaja con Nosotros</a></li>
+        </ul>
+
+        <iframe
+          class="col-sm-12 col-md-6 col-lg-3"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.921689566023!2d-58.31660612440993!3d-34.70715507291742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3326fe2e4fb29%3A0xeb8d4f63410cdd08!2sAv.%20Bartolom%C3%A9%20Mitre%206590%2C%20B1875ABW%20Wilde%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1731499174157!5m2!1ses!2sar"
+          width="150"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
