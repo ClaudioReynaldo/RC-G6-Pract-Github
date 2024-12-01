@@ -1,0 +1,295 @@
+/*
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*/
+/* Estilos generales del body */
+body {
+  background-image: url("https://img.freepik.com/fotos-premium/diseno-fondo-textura-metal-negro-tejido-fondo-texturas-metal-negro-trabajos-diseno_1028938-117186.jpg");
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2d2d2d;
+}
+
+.logo-navbar {
+  border-radius: 100%;
+}
+
+/* Main - Page error 404 */
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  padding: 40px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Fondo semitransparente para destacar el contenido */
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.error-page img {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.error-page h1 {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.error-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f5f5f5;
+}
+
+.error-page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #cccccc;
+}
+
+.error-page .btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.error-page .btn:hover {
+  background-color: #e55454;
+}
+
+/* Estilos generales para el contenido */
+
+Carousel */ .carousel-item img {
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Tarjetas horizontales */
+
+.col {
+  background-color: #f2973b;
+  border: #ccc;
+}
+.card {
+  border: none;
+  background-color: #8c6239;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Ajuste para tarjetas horizontales */
+.card .row {
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 8px 0 0 8px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.card-body {
+  padding: 40px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Sección de anuncios */
+.advertisement {
+  background-color: #ffd700;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publicidad {
+  width: 100%;
+  height: 100%;
+}
+
+/* Formulario de reservas */
+.reservation-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.reservation-form {
+  background-color: #8c6239;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.reservation-form .form-control {
+  background-color: #f5f5f5;
+  border: 1px solid #2d2d2d;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+}
+
+.reservation-form .form-control:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 5px #ffd700;
+}
+
+.reservation-form button {
+  background-color: #ffd700;
+  color: #2d2d2d;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.reservation-form button:hover {
+  background-color: #8c6239;
+  color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #ff6f61;
+}
+
+/* Enlaces de redes sociales en el footer */
+.footer-section.social-media ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-section.social-media ul li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section.social-media ul li a:hover {
+  font-size: 18px;
+  color: #ff6f61;
+}
+
+/* Sección de derechos de autor */
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #ccc;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .carousel-item img {
+    height: 250px; /* Reducción del tamaño del carousel en pantallas pequeñas */
+  }
+}
+/* Ajustes para paginasde error 404 en moviles */
+.error-page h1 {
+  font-size: 6rem;
+}
+.error-page h2 {
+  font-size: 1.5rem;
+}
+.error-page p {
+  font-size: 1rem;
+}
+.error-page img {
+  max-width: 300px;
+}
